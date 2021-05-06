@@ -1,10 +1,11 @@
 {
   "name": "@muchrm/qna-logic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Question and Answer for QnA App",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/muchrm/qna-logic/issues"
   },
-  "homepage": "https://github.com/muchrm/qna-logic#readme"
+  "homepage": "https://github.com/muchrm/qna-logic#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "eslint": "^7.25.0",
+    "prettier": "^2.2.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.2.4"
+  }
 }
