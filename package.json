@@ -1,0 +1,19 @@
+{
+  "name": "@muchrm/qna-logic",
+  "version": "0.0.1",
+  "description": "Question and Answer for QnA App",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muchrm/qna-logic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muchrm/qna-logic/issues"
+  },
+  "homepage": "https://github.com/muchrm/qna-logic#readme"
+}
